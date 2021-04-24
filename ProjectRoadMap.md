@@ -59,7 +59,7 @@ def game():
     entry = Entry(windows)
     entry.place(x=280, y=55)
   
-    # buttons to submit output and check results
+    # updated buttons to submit output and check results
     b2 = Button(windows, text="Done",
                 command=check_result, width=12, bg='grey')
     b2.place(x=150, y=100)
